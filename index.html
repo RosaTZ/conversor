@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <select id="selec" class="selec" onchange="mostrar()">
+            <option class="opt" id="seleccionar" value="0" selected>Seleccionar</option>
+            <option class="opt" id="longitud" value="1">Longitud</option>
+            <option class="opt" id="masa" value="2">Masa</option>
+            <option class="opt" id="temperatura" value="3">Temperatura</option>
+            <option class="opt" id="ley" value="4">Ley de ohms</option>
+        </select>
+    
+     <div id="selecLongitud"></div>
+     <div id="rta"></div>
+     <div id="alertError"><small id="error"></small></div>
+    </div>
+</center>
+    <script src="calculadora.js"></script>
+</div>
+</body>
+</html>
